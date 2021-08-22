@@ -6,7 +6,7 @@ Defective USB devices can destroy the USB port or even the motherboard of your P
 ![USB-Isolator_pic1.jpg](https://raw.githubusercontent.com/wagiminator/ADuM3160-USB-Isolator/main/documentation/USB-Isolator_pic1.jpg)
 
 # Hardware
-## ADum3160 USB Isolator IC
+## ADuM3160 USB Isolator IC
 The ADuM3160 is a 2.5kV USB port digital isolator. Combining high speed CMOS and monolithic air core transformer technology, this isolation component provides outstanding performance characteristics and is easily integrated with low and full speed USB-compatible peripheral devices.
 
 Many microcontrollers implement USB so that it presents only the D+ and D− lines to external pins. This is desirable in many cases because it minimizes external components and simplifies the design; however, this presents particular challenges when isolation is required. Because the USB lines must switch between actively driving D+/D− and allowing external resistors to set the state of the bus, the ADuM3160 provides mechanisms for detecting the direction of data flow and control over the state of the output buffers. Data direction is determined on a packet-by-packet basis.
